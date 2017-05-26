@@ -5,5 +5,5 @@ Plugin potrzebuje paru poprawek lecz mysle ze dziala poprawnie i czytelnie.
 # TODO 
 
 Wymagana ilosc do wykopania na config,
-wiadomosc ktora jest wysylana do gracza gdy nie ma wykopanego "x" kamienia,
-zablokowanie msg jak gracz ma wykopane mniej niz "x" kamienia.
+wiadomosc ktora jest wysylana do gracza gdy nie ma wykopanego "x" kamienia takze na config,
+zablokowanie msg jak gracz ma wykopane mniej niz "x" kamienia do wlaczenia lub wylaczenia takze w configu.
