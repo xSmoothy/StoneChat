@@ -33,15 +33,15 @@ class Main extends PluginBase implements Listener{
 		        $breakdata->save();
   }
   }
-  	public function onJoin3(PlayerJoinEvent $event){
-			$player = $event->getPlayer()->getName();
-            $breakdata = new Config($this->getDataFolder() . "/zniszczone.yml", Config::YAML);
-            $breaks = $breakdata->get($player);
-			if($breakdata->exists($player)){
-			}
-			else{
-				$breakdata->set($player, "0");
-				$breakdata->save();
+  	public function onJoin(PlayerJoinEvent $event){
+	$player = $event->getPlayer()->getName();
+        $breakdata = new Config($this->getDataFolder() . "/zniszczone.yml", Config::YAML);
+        $breaks = $breakdata->get($player);
+	if($breakdata->exists($player)){
+	}
+	else{
+	$breakdata->set($player, "0");
+	$breakdata->save();
 			}
 	}
   public function onChat(PlayerChatEvent $event){
