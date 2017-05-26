@@ -21,7 +21,7 @@ class Main extends PluginBase implements Listener{
 	
 		public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getLogger()->info("EloWiad enabled.");
+		$this->getLogger()->info("StoneChat has been enabled. Author: xSmoothy");
 		}
 	
   public function BlockBreak(BlockBreakEvent $event){
